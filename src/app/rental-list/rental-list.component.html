@@ -1,6 +1,7 @@
 <div class="card-body">
-  <h6>Rental List</h6>
+  <h6>Rentals <span class="badge badge-secondary" > {{rentalList.count}}
+  </span> </h6>
 
-  <p>Rented {{rentalList.count}} movies: {{rentalList.titles}}</p>
-  <button (click) ="delete(rentalList)" class="btn btn-primary">clear Rentals</button>
+  <p>{{rentalList.titles}}</p>
+  <button (click) ="delete(rentalList)" class="btn btn-primary">clear</button>
 </div>

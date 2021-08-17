@@ -3,7 +3,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 @Component({
   selector: 'my-rental-list',
   templateUrl: './rental-list.component.html',
-  styleUrls: []
+  styles: ['h6{color:red} p{color:blue}']
 })
 export class RentalListComponent {
   @Input() rentalList;

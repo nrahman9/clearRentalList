@@ -3,9 +3,8 @@ import { Component, Input, EventEmitter } from '@angular/core';
 @Component({
   selector: 'my-movie-tile',
   templateUrl: './movie-tile.component.html',
-  styleUrls: [  ]
+  styleUrls: ['./movie-tile.component.css']
 })
-export class MovieTileComponent  {
+export class MovieTileComponent {
   @Input() movie;
-
 }
