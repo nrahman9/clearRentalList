@@ -35,6 +35,8 @@ export class AppComponent {
       'https://m.media-amazon.com/images/M/MV5BMjA4MzM0NDAzOF5BMl5BanBnXkFtZTcwMDY3MDYyMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg',
     image: '/images/the-room.jpg'
   };
+  dontShow = true;
+  reallydont = true;
   delete() {
     console.log('deleteing');
     this.rentalList.count = 0;
